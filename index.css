@@ -1,0 +1,66 @@
+body {
+  background: linear-gradient(95deg, rgb(84, 7, 7), rgb(50, 34, 171));
+  display: flex;
+  height: 100vh;
+  color: grey;
+}
+
+.container {
+  margin: auto;
+}
+
+.inputEl {
+  height: 30px;
+  border-radius: 2px;
+  padding-left: 5px;
+  width: 400px;
+}
+.addbtn {
+  background-color: green;
+  border: none;
+  height: 35px;
+  border-radius: 6px;
+}
+.myDiv {
+  position: relative;
+  font-size: medium;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-top: 5px;
+}
+
+.deleteBtn {
+  position: absolute;
+  right: 0%;
+  background-color: chocolate;
+  border: none;
+  border-radius: 5px;
+}
+
+.para {
+  display: inline;
+}
+
+.warning {
+  text-align: center;
+  color: red;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-bottom: 5px;
+}
+
+.line {
+  text-decoration: line-through;
+}
+
+.clear-list-btn {
+  background-color: rgb(195, 55, 12);
+  border: none;
+  height: 35px;
+  border-radius: 6px;
+}
+
+.btn-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
